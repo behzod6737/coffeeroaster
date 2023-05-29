@@ -89,10 +89,15 @@ img {
 /* SITE-BURGER */
 
 .header__toggler {
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
     display: none;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    background-image: url('/image/toggler.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
 }
 
 .site-header__nav {}
@@ -518,7 +523,7 @@ img {
         display: block;
     }
 
-    .site-header--active .site__toggler {
+    .site-header--active .header__toggler {
         background-image: url('/image/toggler-x.svg');
         background-position: center;
         background-repeat: no-repeat;
